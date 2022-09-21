@@ -2,7 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Cabin', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: pink;
+    color:orangered
 }
 
 
@@ -10,10 +12,10 @@
 
 .header {
     padding: 40px;
-    background-color: #2a607c;
+    background-color: #87e02f;
     width: 100%; 
     float: right;
-    color: #ffffff;
+    color: orangered;
     position: fixed;
 }
 
@@ -25,20 +27,25 @@
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: orangered;
 }
 
 
 .header div ul li {
-    display: inline-block;
+    display: inline-block; 
     margin-left: 25px;
 }
 
 a {
     text-decoration:none;
-    color:#ffffff;
+    color:orangered;
 }
 
-image {
+.image {
+    color:orangered;
+    display: inline-block;
     text-align: center;
-    margin:
+    margin: 150px;
+    font-size: 13px;
+
 }
